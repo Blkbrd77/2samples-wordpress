@@ -27,7 +27,7 @@ define( 'WP_CACHE', true );
 define( 'DB_NAME', 'wordpress' );
 
 /** Database username */
-define( 'DB_USER', 'wpuser@localhost' );
+define( 'DB_USER', 'wpuser'@'localhost' );
 
 /** Database password */
 define( 'DB_PASSWORD', 'Syd@7781' );
@@ -83,7 +83,9 @@ $table_prefix = 'wpmp_';
  *
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
-define( 'WP_DEBUG', false );
+define('WP_DEBUG', true);
+define('WP_DEBUG_LOG', true);
+define('WP_DEBUG_DISPLAY', true);
 
 /* Add any custom values between this line and the "stop editing" line. */
 

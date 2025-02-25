@@ -1,0 +1,120 @@
+[25-Feb-2025 15:01:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_report() in /workspaces/2samples-wordpress/wp-includes/class-wpdb.php:1958
+Stack trace:
+#0 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_WpdbNew.php(100): wpdb->db_connect()
+#1 /workspaces/2samples-wordpress/wp-includes/class-wpdb.php(767): W3TC\DbCache_WpdbNew->db_connect()
+#2 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_WpdbNew.php(221): wpdb->__construct()
+#3 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_WpdbInjection.php(38): W3TC\DbCache_WpdbNew->default_initialize()
+#4 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_WpdbNew.php(107): W3TC\DbCache_WpdbInjection->initialize()
+#5 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_WpdbNew.php(374): W3TC\DbCache_WpdbNew->initialize()
+#6 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_WpdbInjection_QueryCaching.php(302): W3TC\_CallUnderlying->initialize()
+#7 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_WpdbNew.php(107): W3TC\DbCache_WpdbInjection_QueryCaching->initialize()
+#8 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_Wpdb.php(53): W3TC\DbCache_WpdbNew->initialize()
+#9 /workspaces/2samples-wordpress/wp-content/db.php(81): W3TC\DbCache_Wpdb::instance()
+#10 /workspaces/2samples-wordpress/wp-includes/load.php(683): require_once('...')
+#11 /workspaces/2samples-wordpress/wp-settings.php(133): require_wp_db()
+#12 /workspaces/2samples-wordpress/wp-config.php(102): require_once('...')
+#13 /workspaces/2samples-wordpress/wp-load.php(50): require_once('...')
+#14 /workspaces/2samples-wordpress/wp-blog-header.php(13): require_once('...')
+#15 /workspaces/2samples-wordpress/index.php(17): require('...')
+#16 {main}
+  thrown in /workspaces/2samples-wordpress/wp-includes/class-wpdb.php on line 1958
+[25-Feb-2025 15:22:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_report() in /workspaces/2samples-wordpress/wp-includes/class-wpdb.php:1958
+Stack trace:
+#0 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_WpdbNew.php(100): wpdb->db_connect()
+#1 /workspaces/2samples-wordpress/wp-includes/class-wpdb.php(767): W3TC\DbCache_WpdbNew->db_connect()
+#2 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_WpdbNew.php(221): wpdb->__construct()
+#3 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_WpdbInjection.php(38): W3TC\DbCache_WpdbNew->default_initialize()
+#4 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_WpdbNew.php(107): W3TC\DbCache_WpdbInjection->initialize()
+#5 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_WpdbNew.php(374): W3TC\DbCache_WpdbNew->initialize()
+#6 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_WpdbInjection_QueryCaching.php(302): W3TC\_CallUnderlying->initialize()
+#7 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_WpdbNew.php(107): W3TC\DbCache_WpdbInjection_QueryCaching->initialize()
+#8 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_Wpdb.php(53): W3TC\DbCache_WpdbNew->initialize()
+#9 /workspaces/2samples-wordpress/wp-content/db.php(81): W3TC\DbCache_Wpdb::instance()
+#10 /workspaces/2samples-wordpress/wp-includes/load.php(683): require_once('...')
+#11 /workspaces/2samples-wordpress/wp-settings.php(133): require_wp_db()
+#12 /workspaces/2samples-wordpress/wp-config.php(102): require_once('...')
+#13 /workspaces/2samples-wordpress/wp-load.php(50): require_once('...')
+#14 /workspaces/2samples-wordpress/wp-blog-header.php(13): require_once('...')
+#15 /workspaces/2samples-wordpress/index.php(17): require('...')
+#16 {main}
+  thrown in /workspaces/2samples-wordpress/wp-includes/class-wpdb.php on line 1958
+[25-Feb-2025 15:42:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_report() in /workspaces/2samples-wordpress/wp-includes/class-wpdb.php:1958
+Stack trace:
+#0 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_WpdbNew.php(100): wpdb->db_connect()
+#1 /workspaces/2samples-wordpress/wp-includes/class-wpdb.php(767): W3TC\DbCache_WpdbNew->db_connect()
+#2 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_WpdbNew.php(221): wpdb->__construct()
+#3 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_WpdbInjection.php(38): W3TC\DbCache_WpdbNew->default_initialize()
+#4 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_WpdbNew.php(107): W3TC\DbCache_WpdbInjection->initialize()
+#5 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_WpdbNew.php(374): W3TC\DbCache_WpdbNew->initialize()
+#6 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_WpdbInjection_QueryCaching.php(302): W3TC\_CallUnderlying->initialize()
+#7 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_WpdbNew.php(107): W3TC\DbCache_WpdbInjection_QueryCaching->initialize()
+#8 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_Wpdb.php(53): W3TC\DbCache_WpdbNew->initialize()
+#9 /workspaces/2samples-wordpress/wp-content/db.php(81): W3TC\DbCache_Wpdb::instance()
+#10 /workspaces/2samples-wordpress/wp-includes/load.php(683): require_once('...')
+#11 /workspaces/2samples-wordpress/wp-settings.php(133): require_wp_db()
+#12 /workspaces/2samples-wordpress/wp-config.php(102): require_once('...')
+#13 /workspaces/2samples-wordpress/wp-load.php(50): require_once('...')
+#14 /workspaces/2samples-wordpress/wp-blog-header.php(13): require_once('...')
+#15 /workspaces/2samples-wordpress/index.php(17): require('...')
+#16 {main}
+  thrown in /workspaces/2samples-wordpress/wp-includes/class-wpdb.php on line 1958
+[25-Feb-2025 16:54:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_report() in /workspaces/2samples-wordpress/wp-includes/class-wpdb.php:1958
+Stack trace:
+#0 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_WpdbNew.php(100): wpdb->db_connect()
+#1 /workspaces/2samples-wordpress/wp-includes/class-wpdb.php(767): W3TC\DbCache_WpdbNew->db_connect()
+#2 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_WpdbNew.php(221): wpdb->__construct()
+#3 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_WpdbInjection.php(38): W3TC\DbCache_WpdbNew->default_initialize()
+#4 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_WpdbNew.php(107): W3TC\DbCache_WpdbInjection->initialize()
+#5 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_WpdbNew.php(374): W3TC\DbCache_WpdbNew->initialize()
+#6 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_WpdbInjection_QueryCaching.php(302): W3TC\_CallUnderlying->initialize()
+#7 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_WpdbNew.php(107): W3TC\DbCache_WpdbInjection_QueryCaching->initialize()
+#8 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_Wpdb.php(53): W3TC\DbCache_WpdbNew->initialize()
+#9 /workspaces/2samples-wordpress/wp-content/db.php(81): W3TC\DbCache_Wpdb::instance()
+#10 /workspaces/2samples-wordpress/wp-includes/load.php(683): require_once('...')
+#11 /workspaces/2samples-wordpress/wp-settings.php(133): require_wp_db()
+#12 /workspaces/2samples-wordpress/wp-config.php(102): require_once('...')
+#13 /workspaces/2samples-wordpress/wp-load.php(50): require_once('...')
+#14 /workspaces/2samples-wordpress/wp-blog-header.php(13): require_once('...')
+#15 /workspaces/2samples-wordpress/index.php(17): require('...')
+#16 {main}
+  thrown in /workspaces/2samples-wordpress/wp-includes/class-wpdb.php on line 1958
+[25-Feb-2025 17:04:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_report() in /workspaces/2samples-wordpress/wp-includes/class-wpdb.php:1958
+Stack trace:
+#0 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_WpdbNew.php(100): wpdb->db_connect()
+#1 /workspaces/2samples-wordpress/wp-includes/class-wpdb.php(767): W3TC\DbCache_WpdbNew->db_connect()
+#2 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_WpdbNew.php(221): wpdb->__construct()
+#3 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_WpdbInjection.php(38): W3TC\DbCache_WpdbNew->default_initialize()
+#4 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_WpdbNew.php(107): W3TC\DbCache_WpdbInjection->initialize()
+#5 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_WpdbNew.php(374): W3TC\DbCache_WpdbNew->initialize()
+#6 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_WpdbInjection_QueryCaching.php(302): W3TC\_CallUnderlying->initialize()
+#7 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_WpdbNew.php(107): W3TC\DbCache_WpdbInjection_QueryCaching->initialize()
+#8 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_Wpdb.php(53): W3TC\DbCache_WpdbNew->initialize()
+#9 /workspaces/2samples-wordpress/wp-content/db.php(81): W3TC\DbCache_Wpdb::instance()
+#10 /workspaces/2samples-wordpress/wp-includes/load.php(683): require_once('...')
+#11 /workspaces/2samples-wordpress/wp-settings.php(133): require_wp_db()
+#12 /workspaces/2samples-wordpress/wp-config.php(102): require_once('...')
+#13 /workspaces/2samples-wordpress/wp-load.php(50): require_once('...')
+#14 /workspaces/2samples-wordpress/wp-blog-header.php(13): require_once('...')
+#15 /workspaces/2samples-wordpress/index.php(17): require('...')
+#16 {main}
+  thrown in /workspaces/2samples-wordpress/wp-includes/class-wpdb.php on line 1958
+[25-Feb-2025 17:32:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_report() in /workspaces/2samples-wordpress/wp-includes/class-wpdb.php:1958
+Stack trace:
+#0 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_WpdbNew.php(100): wpdb->db_connect()
+#1 /workspaces/2samples-wordpress/wp-includes/class-wpdb.php(767): W3TC\DbCache_WpdbNew->db_connect()
+#2 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_WpdbNew.php(221): wpdb->__construct()
+#3 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_WpdbInjection.php(38): W3TC\DbCache_WpdbNew->default_initialize()
+#4 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_WpdbNew.php(107): W3TC\DbCache_WpdbInjection->initialize()
+#5 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_WpdbNew.php(374): W3TC\DbCache_WpdbNew->initialize()
+#6 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_WpdbInjection_QueryCaching.php(302): W3TC\_CallUnderlying->initialize()
+#7 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_WpdbNew.php(107): W3TC\DbCache_WpdbInjection_QueryCaching->initialize()
+#8 /workspaces/2samples-wordpress/wp-content/plugins/w3-total-cache/DbCache_Wpdb.php(53): W3TC\DbCache_WpdbNew->initialize()
+#9 /workspaces/2samples-wordpress/wp-content/db.php(81): W3TC\DbCache_Wpdb::instance()
+#10 /workspaces/2samples-wordpress/wp-includes/load.php(683): require_once('...')
+#11 /workspaces/2samples-wordpress/wp-settings.php(133): require_wp_db()
+#12 /workspaces/2samples-wordpress/wp-config.php(102): require_once('...')
+#13 /workspaces/2samples-wordpress/wp-load.php(50): require_once('...')
+#14 /workspaces/2samples-wordpress/wp-blog-header.php(13): require_once('...')
+#15 /workspaces/2samples-wordpress/index.php(17): require('...')
+#16 {main}
+  thrown in /workspaces/2samples-wordpress/wp-includes/class-wpdb.php on line 1958
