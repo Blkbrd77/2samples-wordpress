@@ -1,0 +1,361 @@
+@keyframes border-pulsate {
+    0%   { border-color: rgba(0, 255, 255, 1); }
+    50%  { border-color: rgba(0, 255, 255, 0); }
+    100% { border-color: rgba(0, 255, 255, 1); }
+}
+.mapster-border-pulse {
+  border: 1px inset cyan;
+  border-radius: 5px;
+  animation: border-pulsate 2s infinite;
+}
+
+.wrap .add-new-h2.mapster-add-submission-shortcode-button {
+  border: none;
+}
+
+.mapster-shortcode-help {
+  cursor: pointer;
+}
+
+#mapster-shortcode-help-text {
+  display : none;
+  position: fixed;
+  width: 200px;
+  background: white;
+  padding: 5px;
+  box-shadow: 2px 2px 10px #ccc;
+}
+
+.menu-icon-mapster-wp-map ul li:nth-child(3) {
+  display: none;
+}
+.menu-icon-mapster-wp-map ul li:nth-child(4) {
+  display: none;
+}
+
+.post-type-mapster-wp-polygon .acf-field-group > .acf-label > label,
+.post-type-mapster-wp-map .acf-field-group > .acf-label > label,
+.post-type-mapster-wp-user-sub .acf-field-group > .acf-label > label,
+.post-type-mapster-wp-location .acf-field-group > .acf-label > label,
+.post-type-mapster-wp-line .acf-field-group > .acf-label > label {
+  font-size: larger;
+}
+
+#mapster-csv-export-modal-content ul.mapster-checkbox-ul {
+  width: 50%;
+  vertical-align:top;
+  display: inline-block;
+}
+
+.mapster-free-preview-image {
+  width: 55%;
+  margin-top: 10px;
+  display: block;
+}
+
+/* Accordion layout for style selector */
+#mapster-style-selector {
+  display: none;
+}
+.post-type-mapster-wp-map #TB_ajaxContent {
+  width: 95% !important;
+  height: 90% !important;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.mapster-accordion-toggle {
+  display: grid;
+  padding-right: 20px;
+  grid-template-columns: repeat(4, 25%);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+.mapster-style-thumb {
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 4px;
+}
+.mapster-style-thumb:hover {
+  background: #eee;
+}
+.mapster-style-thumb img {
+  width: 100%;
+}
+
+/* Freemius adjustments */
+#fs_promo_tab {
+  display: none;
+}
+.fs-secure-notice {
+  position: inherit;
+}
+.mapster-account-button {
+  float: right;
+}
+
+/* ACF reorganization */
+#acf-group_61636c62b003e > .acf-fields > .acf-field:not(.acf-field-tab) {
+  margin-left: 20%;
+}
+#acf-group_61636c62b003e .acf-fields .acf-field[data-name="load_3d_model_libraries"] {
+  margin-left: 0px;
+}
+#acf-group_61636c62b003e .acf-fields .acf-field {
+  min-height: 0px !important;
+}
+#acf-group_61636c62b003e > .acf-fields > .acf-field-group[data-name="map_type"],
+#acf-group_61636c62b003e > .acf-fields > .acf-field-group[data-name="view"],
+#acf-group_61636c62b003e > .acf-fields > .acf-field-group[data-name="layout"] {
+  padding: 0px;
+  border: none;
+}
+#acf-group_61636c62b003e > .acf-fields > .acf-field-group[data-name="map_type"] > .acf-label,
+#acf-group_61636c62b003e > .acf-fields > .acf-field-group[data-name="view"] > .acf-label,
+#acf-group_61636c62b003e > .acf-fields > .acf-field-group[data-name="layout"] > .acf-label {
+  display: none;
+}
+#acf-group_61636c62b003e > .acf-fields > .acf-field-group[data-name="map_type"] .acf-fields.-border,
+#acf-group_61636c62b003e > .acf-fields > .acf-field-group[data-name="view"] .acf-fields.-border,
+#acf-group_61636c62b003e > .acf-fields > .acf-field-group[data-name="layout"] .acf-fields.-border {
+  border: none;
+}
+#acf-group_61636c62b003e .acf-fields .acf-label label > svg {
+  position: absolute;
+  margin-left: 5px;
+  margin-top: -2px;
+  cursor: pointer;
+}
+
+/* Plugin hiding */
+.acf-field-list-wrap .acf-field-list .acf-table .acf-field-settings .acf-input option[value="mapster-map"] {
+  display: none;
+}
+
+body .acf-field.acf-field-62832f86ed5ce {
+  padding: 0px 10px;
+}
+body .acf-field.acf-field-62832f86ed5ce .acf-label {
+  display: none;
+}
+
+.acf-field[data-name="store_locator_fields"] .acf-input .acf-true-false {
+  display : none;
+}
+
+#acf-group_61636c62b003e .acf-field-group[data-name="layout"] .acf-field[data-name="duplicate_horizontally"] {
+  display: none;
+}
+
+#acf-group_61636c62b003e .acf-field-group[data-name="store_locator_options"] .acf-input .acf-fields,
+#acf-group_616379566202f .acf-field-group[data-name="hover_effects"] .acf-input .acf-fields,
+#acf-group_616377d62836b .acf-field-group[data-name="hover_effects"] .acf-input .acf-fields,
+#acf-group_6163732e0426e .acf-field-group[data-name="hover_effects"] .acf-input .acf-fields,
+#acf-group_61636c62b003e .acf-field-group[data-name="embed"] .acf-input .acf-fields,
+#acf-group_61636c62b003e .acf-field-group[data-name="cache"] .acf-input .acf-fields,
+#acf-group_61636c62b003e .acf-field-group[data-name="download_control"] .acf-input .acf-fields,
+#acf-group_61636c62b003e .acf-field-group[data-name="elevation_line_chart"] .acf-input .acf-fields,
+#acf-group_61636c62b003e .acf-field-group[data-name="listing_page"] .acf-input .acf-fields,
+#acf-group_61636c62b003e .acf-field-group[data-name="map_compare"] .acf-input .acf-fields,
+#acf-group_61636c62b003e .acf-field-group[data-name="heatmap"] .acf-input .acf-fields,
+#acf-group_61636c62b003e .acf-field-group[data-name="custom_html_control"] .acf-input .acf-fields,
+#acf-group_61636c62b003e .acf-field-group[data-name="style_control"] .acf-input .acf-fields,
+#acf-group_61636c62b003e .acf-field-group[data-name="layer_control"] .acf-input .acf-fields,
+#acf-group_61636c62b003e .acf-field-group[data-name="submission"] .acf-input .acf-fields,
+#acf-group_616379566202f .acf-field-group[data-name="3d_polygon"] .acf-input .acf-fields,
+#acf-group_61636c62b003e .acf-field-group[data-name="restricted_movement"] .acf-input .acf-fields,
+#acf-group_61636c62b003e .acf-field-group[data-name="print_control"] .acf-input .acf-fields,
+#acf-group_61636c62b003e .acf-field-group[data-name="cluster_options"] .acf-input .acf-fields,
+#acf-group_61636c62b003e .acf-field-group[data-name="loading"] .acf-input .acf-fields,
+#acf-group_61636c62b003e .acf-field-group[data-name="3d_model"] .acf-input .acf-fields,
+#acf-group_61636c62b003e .acf-field-group[data-name="searchbox_control"],
+#acf-group_61636c62b003e .acf-field-group[data-name="user_submission_options"] {
+  display : none;
+}
+
+#acf-group_61636c62b003e .acf-field[data-name="globe"] .acf-input,
+#acf-group_61636c62b003e .acf-field[data-name="advanced_enable"] .acf-input .acf-true-false,
+#acf-group_61636c62b003e .acf-field[data-name="functionality"],
+#acf-group_61636c62b003e .acf-field[data-name="independent_children"],
+#acf-group_61636c62b003e .acf-field[data-name="initial_visibility"],
+#acf-group_61636c62b003e .acf-field[data-name="additional_filters"],
+#acf-group_61636c62b003e .acf-field[data-name="pre_selected_categories"],
+#acf-group_61636c62b003e .acf-field[data-name="number_of_results"],
+#acf-group_61636c62b003e .acf-field[data-name="search_type"],
+.acf-field.acf-field-6329efab822ed[data-name="base_image"],
+#acf-group_61636c62b003e .acf-field[data-name="show_all_languages"],
+#acf-group_6169ff23a6e6d .acf-field[data-name="use_custom_html"] .acf-input,
+#acf-group_61636c62b003e .acf-field[data-name="add_mobile_breakpoints"] .acf-input,
+#acf-group_61636c62b003e .acf-field[data-name="show_accuracy_circle"] .acf-input,
+#acf-group_61636c62b003e .acf-field[data-name="show_user_heading"] .acf-input,
+#acf-group_61636c62b003e .acf-field[data-name="track_user_location"] .acf-input,
+#acf-group_61636c62b003e .acf-field[data-name="cooperative_gestures"] .acf-input,
+#acf-group_61636c62b003e .acf-field[data-name="map_language"] .acf-input,
+#acf-group_61636c62b003e .acf-field[data-name="buildings_3d"] .acf-input,
+#acf-group_61636c62b003e .acf-field[data-name="breakpoints"],
+#acf-group_61636c62b003e .acf-field[data-name="lighting"],
+#acf-group_6169ff23a6e6d .acf-field[data-name="html_editor"],
+#acf-group_616379566202f .acf-field[data-name="3d_polygon"] .acf-field[data-name="base"],
+#acf-group_616379566202f .acf-field[data-name="3d_polygon"] .acf-field[data-name="height"],
+#acf-group_61636c62b003e .acf-field[data-name="geolocation_control"] .acf-field[data-name="set_on_load"] .acf-input,
+#acf-group_61636c62b003e .acf-field[data-name="filter_dropdown"] .acf-field[data-name="display_images"] .acf-input,
+#acf-group_61636c62b003e .acf-field[data-name="list"] .acf-field[data-name="advanced_options"] .acf-input,
+#acf-group_61636c62b003e .acf-field[data-name="load_3d_model_libraries"],
+#acf-group_626492b319912 .acf-field[data-name="associated_post"],
+#acf-group_6163732e0426e .acf-field[data-name="icon-static-size"] .acf-input,
+#acf-group_61636c62b003e .acf-field[data-name="accept_latlngs"] .acf-input,
+#acf-group_616379566202f .acf-field[data-name="polygon_image"] .acf-input,
+#acf-group_6163d357655f4 .acf-field[data-name="render_shortcode"] .acf-input,
+#acf-group_61636c62b003e .acf-field[data-name="display_images"] .acf-input,
+#acf-group_61636c62b003e .acf-field[data-name="map_tile_style_no_access_token"],
+#acf-group_61636c62b003e .acf-field[data-name="map_tile_style_access_token"]
+ {
+  display : none;
+}
+
+/* Menu bar */
+.mapster-admin-toolbar {
+  background: #fff;
+  border-bottom: 1px solid #ccd0d4;
+  padding-top: 10px;
+}
+.mapster-admin-toolbar h2 {
+  font-size: 14px;
+  line-height: 2.5714285714;
+  display: inline-block;
+  padding: 5px 0;
+  margin: 0 10px 0 0;
+}
+.mapster-admin-toolbar h2 i {
+  vertical-align: middle;
+  color: #babbbc;
+}
+.mapster-admin-toolbar .acf-tab {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 2.5714285714;
+  padding: 5px;
+  margin: 0 5px;
+  text-decoration: none;
+  color: inherit;
+}
+.mapster-admin-toolbar .acf-tab.is-active {
+  border-bottom: #0071a4 solid 3px;
+  padding-bottom: 10px;
+}
+.mapster-admin-toolbar .acf-tab:hover {
+  color: #00a0d2;
+}
+.mapster-admin-toolbar .acf-tab:focus {
+  box-shadow: none;
+}
+.mapster-admin-toolbar a.btn-upgrade {
+  display: inline-flex;
+  background: #dee3ff;
+  border: 1px solid #c6d3f8;
+  box-sizing: border-box;
+  border-radius: 0.25rem;
+  padding: 0 0.75rem;
+  cursor: pointer;
+  vertical-align: middle;
+  margin-top: -6px;
+  margin-left: 20px;
+  text-decoration: none;
+}
+.mapster-admin-toolbar a.btn-upgrade:hover {
+  background: #d1ddff;
+  border-color: #b9caf9;
+}
+.mapster-admin-toolbar a.btn-upgrade p {
+  font-family: system-ui;
+  font-weight: 600;
+  letter-spacing: 0.2;
+  line-height: 1;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  color: #425fdd;
+  margin-left: 0.65rem;
+}
+#wpcontent .mapster-admin-toolbar {
+  margin-left: -20px;
+  padding-left: 20px;
+}
+@media screen and (max-width: 600px) {
+  .mapster-admin-toolbar {
+    display: none;
+  }
+}
+.mapster-admin-toolbar {
+	background: #fff;
+	border-bottom: 1px solid #ccd0d4;
+	padding-top: 10px;
+}
+
+.mapster-admin-toolbar h2 {
+	font-size: 14px;
+	line-height: 1.9;
+	display: inline-block;
+	padding: 5px 0;
+	margin: 0 10px 0 0;
+}
+.mapster-admin-toolbar h2 i {
+	vertical-align: middle;
+	color: #babbbc;
+}
+.mapster-admin-toolbar .acf-tab {
+	display: inline-block;
+	font-size: 14px;
+	line-height: 1.9;
+	padding: 5px;
+	margin: 0 5px;
+	text-decoration: none;
+	color: inherit;
+}
+.mapster-admin-toolbar .acf-tab.is-active {
+  border-bottom: #0071a4 solid 3px;
+  padding-bottom: 10px;
+}
+.mapster-admin-toolbar .acf-tab:hover {
+  border-bottom: #0071a4 solid 3px;
+  padding-bottom: 10px;
+}
+.mapster-admin-toolbar .acf-tab:focus {
+  border-bottom: #0071a4 solid 3px;
+  padding-bottom: 10px;
+}
+
+.mapster-admin-toolbar a.btn-upgrade {
+	display: inline-flex;
+	background: #dee3ff;
+	border: 1px solid #c6d3f8;
+	box-sizing: border-box;
+	border-radius: 0.25rem;
+	padding: 0 0.75rem;
+	cursor:pointer;
+	vertical-align: middle;
+	margin-top: -6px;
+	margin-left: 20px;
+	text-decoration: none;
+}
+
+.mapster-admin-toolbar a.btn-upgrade:hover {
+	background: #d1ddff;
+	border-color: #b9caf9;
+}
+
+.mapster-admin-toolbar p {
+	font-family: system-ui;
+	font-weight: 600;
+	letter-spacing: 0.2;
+	line-height: 1;
+	font-size: 0.625rem;
+	text-transform: uppercase;
+	color: #425fdd;
+	margin-left: 0.65rem;
+}
+
+#wpcontent .mapster-admin-toolbar {
+	margin-left: -20px;
+	padding-left: 20px;
+}
+
+

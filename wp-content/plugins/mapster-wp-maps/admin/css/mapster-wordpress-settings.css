@@ -1,0 +1,188 @@
+
+.acf-form-submit {
+  margin: 10px;
+}
+body .acf-fields > .acf-tab-wrap {
+  background: none;
+}
+
+#import-mapster-installation {
+  display: none;
+}
+
+.mapster-tileset-layout {
+  display: flex;
+}
+.mapster-tileset-layout > div {
+  width: 50%;
+  padding-right: 10px;
+}
+.mapster-tileset-layout #new-tileset-creation, .mapster-tileset-layout #existing-tileset-selection {
+  margin-top: 10px;
+  display: none;
+}
+#tileset-responses {
+  display: none;
+}
+
+/* Importer layout */
+#TB_window {
+  width: 80% !important;
+  margin-left: -40% !important;
+  height: 80% !important;
+  top: 50% !important;
+  margin-top: -20% !important;
+  overflow-y: auto;
+}
+#TB_ajaxContent {
+  width: 90% !important;
+  height: auto !important;
+  overflow:visible;
+}
+.mapster-importer-row {
+  display: flex;
+}
+.mapster-importer-column {
+  width: 50%;
+}
+.nav-tab {
+  cursor: pointer;
+}
+.nav-box {
+  display: none;
+}
+.nav-box-active {
+  display: block;
+}
+
+.mapster-panel {
+  padding: 10px;
+  border: thin solid #ccc;
+  box-shadow: 0.5px 0.5px 1px;
+  border-radius: 6px;
+  background: white;
+  cursor: pointer;
+  text-align: center;
+}
+.mapster-panel:hover {
+  background: #efefef;
+}
+
+.mapster-collapse {
+  padding: 10px;
+  margin-top: 10px;
+}
+.mapster-collapse-header {
+  font-size: 14px;
+  font-weight: bold;
+  border: thin dotted #333;
+  padding: 10px;
+  display: flex;
+  border-radius: 6px;
+}
+.mapster-collapse-header .mapster-collapse-clicker {
+  width: 90%;
+  cursor: pointer;
+}
+.mapster-collapse-header .mapster-collapse-remove {
+  width: 10%;
+  cursor: pointer;
+  text-align: right;
+}
+.mapster-collapse-header .mapster-collapse-remove:hover {
+  color: #ccc;
+}
+.mapster-collapse-body {
+  display: none;
+  padding: 10px;
+}
+.mapster-collapse-body .mapster-condition label {
+  margin-right: 10px;
+}
+.mapster-collapse-body .mapster-values {
+  margin-top: 10px;
+}
+.mapster-collapse-body .mapster-values button {
+  margin-right: 10px;
+  text-transform: capitalize;
+}
+.mapster-collapse-body .mapster-value-entry {
+  display : none;
+}
+#template-inputs {
+  display: none;
+}
+.mapster-condition-container {
+  display: none;
+}
+.mapster-default {
+  font-size: 10px;
+}
+
+#mapster-import-json {
+  width: 100%;
+  height: 300px;
+}
+
+.mapster-import-options {
+  display: none;
+  background: #eee;
+  padding: 10px 15px;
+  margin-left: 10px;
+}
+.mapster-import-options h3 {
+  margin-top: 0px;
+}
+.mapster-import-options h4 {
+  margin-bottom: 0px;
+}
+
+#geojson-import-button {
+  display: none;
+  margin-top: 10px;
+}
+.mapster-map-loader {
+  display: none;
+  margin-top: 15px;
+}
+.mapster-import-error {
+  font-size: 10px;
+  color: #ccc;
+}
+#mapster-projection-warning {
+  display: none;
+}
+#mapster-from-projection {
+  width: 100%;
+}
+#mapster-try-reproject {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* tooltips */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  max-width: 200px;
+  min-width: 100px;
+  background-color: rgba(0, 0, 0, 0.7);
+  line-height: 1.2;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 5px 10px 5px;
+  font-size: 12px;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}

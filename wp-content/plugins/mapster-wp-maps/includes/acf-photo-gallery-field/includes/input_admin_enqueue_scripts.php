@@ -1,0 +1,32 @@
+<?php
+
+// exit if accessed directly
+if( ! defined( 'ABSPATH' ) ) exit;
+
+if( function_exists('get_current_screen') ) {
+  $current_screen = get_current_screen();
+  if( $current_screen && ($current_screen->id == "mapster-wp-location" || $current_screen->id == "mapster-wp-line" || $current_screen->id == "mapster-wp-polygon") ) {
+
+    // vars
+    $url = $this->settings['url'];
+    $version = $this->settings['version'];
+    wp_enqueue_media();
+
+    // register & include JS
+    wp_enqueue_script( 'jquery-ui-sortable' );
+
+    wp_register_script( 'acf-input-photo_gallery', "{$url}assets/js/acf-photo-gallery-field.js", array('acf-input'), $version );
+    wp_enqueue_script( 'acf-input-photo_gallery');
+
+    wp_register_script( 'acf-input-photo_gallery_swal', "{$url}assets/js/sweetalert2.min.js", array('acf-input'), $version );
+    wp_enqueue_script( 'acf-input-photo_gallery_swal');
+
+
+    // register & include CSS
+    wp_register_style( 'acf-input-photo_gallery', "{$url}assets/css/acf-photo-gallery-field.css", array('acf-input'), $version );
+    wp_enqueue_style('acf-input-photo_gallery');
+
+    wp_register_style( 'acf-input-photo_gallery_swal', "{$url}assets/css/sweetalert2.min.css", array('acf-input'), $version );
+    wp_enqueue_style('acf-input-photo_gallery_swal');
+  }
+}

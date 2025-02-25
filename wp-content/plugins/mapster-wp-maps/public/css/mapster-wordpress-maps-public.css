@@ -1,0 +1,67 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ /* Street view modification */
+ body .mapster-wp-maps .gm-svpc img {
+   max-width: none;
+ }
+
+ /* Increasing specificity of Mapbox classes */
+body .mapster-submission-map .mapboxgl-ctrl-group button:not(:hover):not(:active),
+body .mapster-submission-map .maplibregl-ctrl-group button:not(:hover):not(:active),
+body .mapster-wp-maps .mapboxgl-ctrl-group button:not(:hover):not(:active),
+body .mapster-wp-maps .maplibregl-ctrl-group button:not(:hover):not(:active) {
+  background-color: transparent;
+  padding: 0;
+  border: 0;
+  line-height: 1;
+  min-height: unset;
+  display: block;
+}
+body .mapster-submission-map button.maplibregl-ctrl-attrib-button:not(:hover):not(:active),
+body .mapster-submission-map button.mapboxgl-ctrl-attrib-button:not(:hover):not(:active),
+body .mapster-submission-map button.maplibregl-ctrl-attrib-button:hover:not(:active),
+body .mapster-submission-map button.mapboxgl-ctrl-attrib-button:hover:not(:active)
+body .mapster-wp-maps button.maplibregl-ctrl-attrib-button:not(:hover):not(:active),
+body .mapster-wp-maps button.mapboxgl-ctrl-attrib-button:not(:hover):not(:active),
+body .mapster-wp-maps button.maplibregl-ctrl-attrib-button:hover:not(:active),
+body .mapster-wp-maps button.mapboxgl-ctrl-attrib-button:hover:not(:active) {
+  background-color: hsla(0,0%,100%,.5);
+  padding: 0;
+}
+
+body .mapster-submission-map .mapboxgl-ctrl input[type=text].mapboxgl-ctrl-geocoder--input,
+body .mapster-submission-map .maplibre-ctrl input[type=text].maplibre-ctrl-geocoder--input,
+body .mapster-submission-map .maplibre-ctrl input[type=text].maplibre-ctrl-geocoder--input:focus
+body .mapster-wp-maps .mapboxgl-ctrl input[type=text].mapboxgl-ctrl-geocoder--input,
+body .mapster-wp-maps .maplibre-ctrl input[type=text].maplibre-ctrl-geocoder--input,
+body .mapster-wp-maps .maplibre-ctrl input[type=text].maplibre-ctrl-geocoder--input:focus {
+  border: 0;
+  background-color: transparent;
+  margin: 0;
+  height: 50px;
+  color: #404040;
+  color: rgba(0, 0, 0, 0.75);
+  padding: 6px 45px;
+  outline: none;
+}
+
+body .mapster-submission-map .mapboxgl-ctrl-geocoder--button:not(:hover):not(:active),
+body .mapster-wp-maps .mapboxgl-ctrl-geocoder--button:not(:hover):not(:active) {
+  background-color: unset;
+  color: unset;
+}
+
+@media screen and (min-width: 640px) {
+  body .mapster-submission-map .mapboxgl-ctrl input[type=text].mapboxgl-ctrl-geocoder--input,
+  body .mapster-submission-map .maplibre-ctrl input[type=text].maplibre-ctrl-geocoder--input,
+  body .mapster-wp-maps .mapboxgl-ctrl input[type=text].mapboxgl-ctrl-geocoder--input,
+  body .mapster-wp-maps .maplibre-ctrl input[type=text].maplibre-ctrl-geocoder--input {
+      height: 36px;
+      padding: 6px 35px;
+  }
+}
+
+
